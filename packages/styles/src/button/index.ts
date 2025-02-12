@@ -63,9 +63,10 @@ export const style = /*css*/ `
     }
 
     .p-button-icon-only::after {
-        content: "\u00A0";
+        content: "\\00A0";
         visibility: hidden;
         width: 0;
+        font-size: 1.125rem;
     }
 
     .p-button-sm {
